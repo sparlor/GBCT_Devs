@@ -4,6 +4,14 @@ body {
     margin: .5em 0;
 }
 
+span {
+    background-color: #2B2F26;
+    color: #EEECD3;
+    padding: .5em;
+    position: relative;
+    bottom: 40px;
+}
+
 .navbar {
     background-color: white;
     display: flex;
@@ -48,4 +56,27 @@ body {
 
 .section1 {
     display: flex;
+    margin: 0 1em;
+}
+
+.pots {
+    width: 60%;
+    margin: 0 .5em;
+}
+
+
+.bowls {
+    width: 20%;
+    margin: 0 .5em;
+}
+
+.platter {
+    width: 20%;
+    margin: 0 .5em;
+}
+
+.product-1, .product-2, .product-3 {
+    width: 100%;
+    height: 55vh;
+    object-fit: cover;
 }
