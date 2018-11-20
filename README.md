@@ -1,4 +1,4 @@
-Grace Bible Church of Tampa Developers
+<h1>Grace Bible Church of Tampa Developers</h1>
 
 This repository should serve as a central location for course content and reference to the most recent code from each lesson.
 
