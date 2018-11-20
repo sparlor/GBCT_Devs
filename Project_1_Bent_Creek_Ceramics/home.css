@@ -80,3 +80,34 @@ span {
     height: 55vh;
     object-fit: cover;
 }
+
+.section2 {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin: 0 1em;
+}
+
+.twos {
+     grid-column: span 2;
+}
+
+.product-4, .product-5, .product-6, .product-7 {
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+}
+
+.product-6 {
+    object-fit: cover;
+    object-position: 50% 20%;
+}
+
+.mug, .vase, .twos, .mugs2 {
+    margin: 0 .5em;
+}
+
+.footer {
+    background-color: #2B2F26;
+    color: #F7F6EC;
+    padding: 2em;
+}
