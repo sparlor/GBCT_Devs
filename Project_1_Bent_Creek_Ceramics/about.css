@@ -1,0 +1,83 @@
+body {
+    background-color: #F2F1E8;
+    margin: .5em 0;
+}
+
+p, q {
+    line-height: 1.5em;
+    font-size: 1.25em;
+}
+
+h3 {
+    font-size: 1.75em;
+    font-weight: 300;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    box-shadow: 0 2px 3px #999;
+}
+
+.logo {
+    width: 2em;
+    height: 2em;
+    margin: 1em;
+}
+
+.navlinks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4em; 
+}
+
+.links {
+    color: black;
+    margin: 0 2em;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainTitle {
+    font-size: 4em;
+    margin: 1em 0 1em 0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-studio, .history {
+    width: 70%;
+}
+
+.birdhouse {
+    width: 7em;
+    height: auto;
+    float: left;
+    margin-right: .5em;
+}
+
+.our-studio {
+    margin: 0;
+}
+
+.quote {
+    font-style: italic;
+    margin: 2em 0;
+    border-left: 1px solid grey;
+    padding-left: 2em;
+    width: 68%;
+}
+
+.jenn {
+    margin: 0;
+}
