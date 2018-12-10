@@ -11,6 +11,22 @@ p, q {
 h3 {
     font-size: 1.75em;
     font-weight: 300;
+    margin-bottom: 0;
+}
+
+table {
+    width: 75%;
+    margin: 2em 0;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #F2EADD;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 1em;
 }
 
 .navbar {
@@ -49,13 +65,13 @@ h3 {
     margin: 1em 0 1em 0;
 }
 
-.about {
+.about, .information {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.about-studio, .history {
+.about-studio, .history, .facilities, .plans {
     width: 70%;
 }
 
@@ -80,4 +96,54 @@ h3 {
 
 .jenn {
     margin: 0;
+}
+
+.grow {
+    height: 35vh;
+    background-image: url("./images/background-3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.roomToGrow {
+    margin: 0;
+    font-size: 5em;
+    color: white;
+    font-weight: 100;
+}
+
+.facility-description {
+    width: 75%;
+    padding-right: 2em;
+}
+
+.facility-info {
+    display: flex;
+}
+
+.facility-image {
+    width: 25%;
+    margin-top: 2em;
+}
+
+.shelf {
+    width: 100%;
+    height: auto;
+}
+
+.shelf-description {
+    margin: 0;
+    font-size: .75em;
+}
+
+.footer {
+    background-color: #2B2F26;
+    color: #F7F6EC;
+    padding: 2em;
 }
