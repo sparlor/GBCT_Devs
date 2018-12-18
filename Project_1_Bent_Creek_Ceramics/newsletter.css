@@ -1,0 +1,95 @@
+body {
+    background-color: #F2F1E8;
+    margin: .5em 0;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #8E7E67;
+    margin-bottom: 1em;
+    font-size: 1.25em;
+    padding: .25em 0;
+    width: 100%;
+}
+
+input:focus {
+    outline: 0;
+}
+
+button {
+    width: 20%;
+    background-color: #8E7E67;
+    color: white;
+    font-size: 1.25em;
+    padding: .5em 0;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    box-shadow: 0 2px 3px #999;
+}
+
+.logo {
+    width: 2em;
+    height: 2em;
+    margin: 1em;
+}
+
+.navlinks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4em; 
+}
+
+.links {
+    color: black;
+    margin: 0 2em;
+}
+
+.newsletterBody {
+    background-image: url("./images/background-2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletterSubscription {
+    background-color: white;
+    width: 50vw;
+    height: 55%;
+    margin-top: 4em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.newsletterTitle {
+    margin-top: 2em;
+    font-weight: 500;
+}
+
+.newsletterDescription {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+
+
+
+.footer {
+    background-color: #2B2F26;
+    color: #F7F6EC;
+    padding: 2em;
+}

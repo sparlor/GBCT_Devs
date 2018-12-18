@@ -118,6 +118,10 @@ th, td {
     font-weight: 100;
 }
 
+.dedication {
+    color: #8E857E;
+}
+
 .facility-description {
     width: 75%;
     padding-right: 2em;
